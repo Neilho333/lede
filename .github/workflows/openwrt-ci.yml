@@ -195,7 +195,7 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: config.seed
-          path: ./bin/targets/*/*/config.seed
+          path: ./bin/targets/x86/64/config.seed
 
       - name: Upload firmware
         uses: actions/upload-artifact@master
